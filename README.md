@@ -70,3 +70,21 @@ If you're in terested in the way my desktop looks and/or in my workflow, and you
 ## EXTRAS
   - Polkit configuration.
   - logind: hibernate when powerkey is pressed, ignore when lid is closed.
+## How to install
+  - clone the repo
+```
+git clone https://github.com/postkpao/dotfiles.git
+```
+  - cd into the cloned repo
+```
+cd dotfiles
+```
+  - run this command to make the installer executable
+```
+chmod u+x install.sh
+```
+  - run the installer, and pass your logged in username and the graphics card you have (amdgpu or nvidia)
+    - in this example the username is anon and the graphics we have is amdgpu
+  ```
+  ./install.sh anon amdgpu
+  ```
